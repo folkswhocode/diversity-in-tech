@@ -52,7 +52,7 @@ config :phoenix, :stacktrace_depth, 20
 config :diversity_in_tech, DiversityInTech.Repo,
   adapter: Ecto.Adapters.Postgres,
   username: "postgres",
-  password: "postgres",
+  password: "",
   database: "diversity_in_tech_dev",
-  hostname: "localhost",
+  hostname: "db",
   pool_size: 10

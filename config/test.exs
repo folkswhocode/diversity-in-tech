@@ -13,7 +13,7 @@ config :logger, level: :warn
 config :diversity_in_tech, DiversityInTech.Repo,
   adapter: Ecto.Adapters.Postgres,
   username: "postgres",
-  password: "postgres",
+  password: "",
   database: "diversity_in_tech_test",
-  hostname: "localhost",
+  hostname: "db",
   pool: Ecto.Adapters.SQL.Sandbox
