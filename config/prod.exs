@@ -28,5 +28,6 @@ config :diversity_in_tech, DiversityInTech.Repo,
   pool_size: String.to_integer(System.get_env("POOL_SIZE") || "10"),
   ssl: true
 
+# Guardian configuration
 config :guardian, Guardian,
   secret_key: System.get_env("SECRET_KEY_BASE")
