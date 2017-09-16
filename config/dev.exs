@@ -56,3 +56,6 @@ config :diversity_in_tech, DiversityInTech.Repo,
   database: "diversity_in_tech_dev",
   hostname: "db",
   pool_size: 10
+
+config :guardian, Guardian,
+  secret_key: "eP/Fjhc5Ns4WsmYqBqwvC51oA0i/aXYeobBLn8V7Rrtyddfct48rimYbVQj28MAX"
