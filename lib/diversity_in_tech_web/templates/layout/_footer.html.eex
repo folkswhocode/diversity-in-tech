@@ -1,0 +1,7 @@
+<footer class="fixed-bottom">
+  <div class="container">
+    <p class="m-0 text-center text-white">
+      Project developed with <i class="fa fa-heart"></i> by the community of <%= link "Folks Who Code", to: "http://folkswhocode.org" %>
+    </p>
+  </div>
+</footer>
