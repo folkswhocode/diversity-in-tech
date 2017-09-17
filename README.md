@@ -35,3 +35,8 @@ This step assumes you already followed instructions from previous paragraph.
 ## License
 
 **DiversityInTech** is released under the [MIT License](http://www.opensource.org/licenses/MIT).
+
+----------------------------
+This project is part of the [folkswhocode](https://github.com/folkswhocode) organization.
+This means that it adheres to its [core values](https://github.com/folkswhocode/diversity-in-tech/blob/master/VALUES.md), [code of conduct](https://github.com/folkswhocode/diversity-in-tech/blob/master/CODE_OF_CONDUCT.md) and
+[contributing guidelines](https://github.com/folkswhocode/diversity-in-tech/blob/master/CONTRIBUTING.md), and uses an equivalent [license](https://github.com/folkswhocode/diversity-in-tech/blob/master/LICENSE).
