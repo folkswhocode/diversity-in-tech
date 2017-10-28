@@ -1,5 +1,8 @@
 # DiversityInTech
 
+[![CircleCI](https://circleci.com/gh/folkswhocode/diversity-in-tech.svg?style=shield)](https://circleci.com/gh/folkswhocode/diversity-in-tech)
+[![Ebert](https://ebertapp.io/github/folkswhocode/diversity-in-tech.svg)](https://ebertapp.io/github/folkswhocode/diversity-in-tech)
+
 Phoenix application to rate tech companies according to how diverse friendly they are. Inspired in [techleaks.org](https://www.techleaks.org/).
 
 ## Setup development environment with Docker
