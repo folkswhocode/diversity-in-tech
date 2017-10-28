@@ -21,9 +21,3 @@ jobs:
       - run: mix deps.get
       - run: mix ecto.create
       - run: mix test
-    # Deploy production
-    deployment:
-      production:
-        branch: master
-        heroku:
-          appname: diversity-in-tech
