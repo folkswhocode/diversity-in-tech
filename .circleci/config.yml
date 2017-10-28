@@ -6,11 +6,14 @@ jobs:
   build:
     working_directory: ~/diversity-in-tech
     docker:
-      - image: circleci/elixir:1.5
+      - image: circleci/elixir:1.5.1
+        environment:
+          - MIX_ENV=ci
       - image: postgres:9.5
         environment:
-          POSTGRES_USER: ubuntu
-          POSTGRES_PASSWORD: ubuntu
+          - POSTGRES_USER=ubuntu
+          - POSTGRES_PASSWORD=ubuntu
+          - POSTGRES_DB=circle_test
     steps:
       - checkout
       - run: mix local.rebar --force
