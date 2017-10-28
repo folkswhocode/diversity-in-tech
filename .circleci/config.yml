@@ -22,9 +22,8 @@ jobs:
       - run: mix ecto.create
       - run: mix test
       # Deploy production
-      - deploy:
-          command: |
-            if [ "${CIRCLE_BRANCH}" == "master" ]; then
-              git push git@heroku.com:diversity-in-tech.git $CIRCLE_SHA1:refs/heads/master
-              heroku run --app diversity-in-tech "POOL_SIZE=2 mix ecto.migrate"
-            fi
+      - deployment:
+          production:
+            branch: master
+            heroku:
+              appname: diversity-in-tech
