@@ -20,7 +20,7 @@ This step assumes you already followed instructions from previous paragraph.
 * Create your testing database with `docker-compose run diversity_in_tech env MIX_ENV=test mix ecto.create`
 * Migrate your testing database with `docker-compose run diversity_in_tech env MIX_ENV=test mix ecto.migrate`
 * Run the test suite with `mix test`
-* Run the test suite with coverage report on `cover` folder with: `docker-compose run diversity_in_tech env MIX_ENV=test mix coveralls.html`
+* Run the test suite with coverage report on `cover` folder with: `docker-compose run diversity_in_tech env MIX_ENV=test mix test`
 
 ----------------------------
 
