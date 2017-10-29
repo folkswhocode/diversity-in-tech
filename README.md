@@ -22,7 +22,11 @@ This step assumes you already followed instructions from previous paragraph.
 
 * Create your testing database with `docker-compose exec diversity_in_tech env MIX_ENV=test mix ecto.create`
 * Migrate your testing database with `docker-compose exec diversity_in_tech env MIX_ENV=test mix ecto.migrate`
-* Run the test suite with with: `docker-compose exec diversity_in_tech env MIX_ENV=test mix test`
+* Run the test suite with: `docker-compose exec diversity_in_tech env MIX_ENV=test mix test`
+
+## Contributing
+
+Please see [CONTRIBUTING](https://github.com/folkswhocode/base/blob/master/en/CONTRIBUTING.md) for more details. Here you have the alphabetical [list of contributors](.github/CONTRIBUTORS.md) of this repository.
 
 ----------------------------
 
